@@ -97,9 +97,9 @@ public class PlayerMoment : MonoBehaviour
     {
         isJumping = false;
         animator.SetBool("Run", false);
-        if (collision.collider.CompareTag("Enemy"))
-        {
-            Destroy(gameObject);
-        }
+        // if (collision.collider.CompareTag("Enemy"))
+        // {
+        //     Destroy(gameObject);
+        // }
     }
 }
