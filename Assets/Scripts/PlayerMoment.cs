@@ -7,14 +7,12 @@ public class PlayerMoment : MonoBehaviour
     private float horizontal;
     private bool isJumping = true;
     private bool facingRight = true;
-    private bool runAndShoot = false;
     private bool isShooting = false;
-    private bool isRuning = false;
+    private bool isFalling = false;
+ 
 
     [SerializeField] private Animator animator;
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private Transform groundCheck;
-    [SerializeField] private LayerMask groundLayer;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -25,6 +23,17 @@ public class PlayerMoment : MonoBehaviour
     {
         Vector2 playerMovement = new Vector2(horizontal * speed, rb.velocity.y);
         rb.velocity = playerMovement;
+
+        //Player is falling
+        if(rb.velocity.y < -0.1f)
+        {
+            isFalling = true;
+        }
+        else
+        {
+            isFalling= false;
+        }
+
         // If the input is moving the player right and the player is facing left...
         if (horizontal > 0 && !facingRight)
         {
@@ -56,60 +65,21 @@ public class PlayerMoment : MonoBehaviour
             isShooting = false;
         }
 
-        if(isRuning && isShooting)
-        {
-            runAndShoot = true;
-        }
-        else
-        {
-            runAndShoot=false;
-        }
-
-
         //Animations
-        if(runAndShoot & !isJumping) {
-            animator.SetBool("Run-Shoot", true);
-        }
-        else
-        {
-            animator.SetBool("Run-Shoot", false);
-        }
-        if (isShooting)
-        {
-            animator.SetBool("Shoot", true);
-        }
-        if (!isShooting)
-        {
-            animator.SetBool("Shoot", false);
-        }
+        animator.SetBool("Falling", isFalling);
 
-        if (isJumping)
-        {
-            animator.SetBool("Jump", true);
-        }
-        if (!isJumping)
-        {
-            animator.SetBool("Jump", false);
-        }
+        animator.SetBool("Shoot", isShooting);
+
+        animator.SetBool("Jump", isJumping);
+
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow))
         {
             animator.SetBool("Run", true);
-            isRuning = true;
         }
         else
         {
             animator.SetBool("Run", false);
-            isRuning=false;
         }
-
-        /* if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A) && !isJumping)
-         {
-             animator.SetBool("Run", true);
-         }
-         if(Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.A))
-         {
-             animator.SetBool("Run", false);
-         }*/
     }
 
     private void Flip()
@@ -118,10 +88,14 @@ public class PlayerMoment : MonoBehaviour
         transform.Rotate(0, 180, 0);
     }
 
+    public void ChargedShot()
+    {
+        animator.SetBool("Shoot", true);
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         isJumping = false;
         animator.SetBool("Run", false);
-        Debug.Log("Not jumping");
     }
 }
