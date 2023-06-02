@@ -1,0 +1,2985 @@
+fileFormatVersion: 2
+guid: 446af5f4a6df84b4aa51e8199f283e73
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 22
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mmm-mmxarmour_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 630
+        width: 66
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101fd5c2f85be6d469c2c3bea81a0441
+      internalID: -576102762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 630
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4177d0fa963aee46969139d45bbe4fb
+      internalID: 1765333100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 630
+        width: 60
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b61ee8f62fd7184386ded33e352b8e2
+      internalID: 844964219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_3
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 630
+        width: 55
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab37baf638c13d4090820a265503e28
+      internalID: -402587405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_4
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 630
+        width: 55
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa1e4519ddffd247b370c68dea830ec
+      internalID: -1683647538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_5
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 630
+        width: 56
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f36d489d7907d547bf238c7e093db19
+      internalID: -1551851632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_6
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 630
+        width: 58
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55254e49d19421242b50a88240db7ca4
+      internalID: 1227587346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_8
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 630
+        width: 62
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5b6497e8e7e5643bcda6dee8dac202
+      internalID: -1308692814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_9
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 634
+        width: 41
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c5deb81f2e83f4f92c5c7d20d499de
+      internalID: 310795793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_10
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 615
+        width: 66
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2d3d708fc0ff942a5b4130a1073fca
+      internalID: 3508552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_11
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 626
+        width: 25
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc2c53fc9d26a34ba9a08e74359a040
+      internalID: -1948156840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_12
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 626
+        width: 25
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3bffa4796dbc347be2d9260dbe71b3
+      internalID: -1835946585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_13
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 641
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df571763d4f19f4f9f168483461e194
+      internalID: 773910579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_14
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 626
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4722e41eebf7e4ea5d1afab8215e5c
+      internalID: 237478990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_15
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 645
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90a67a323ac800488af0e8a97cd7d6d
+      internalID: -1488473073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_16
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 620
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bdc8bfca86e274babb598fbeb91ecb
+      internalID: -957881578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_17
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 631
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcc1a8839d0de4418055018e08b9565
+      internalID: 795151282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_18
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 625
+        width: 11
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f94f2a8d2efb9c4ba0272159fe609ee
+      internalID: 2021851945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_19
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 622
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36b29d47a8f180449ff40687af2232d
+      internalID: -1692125989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_20
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 624
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116ccae3a4a136d419f0c119f1f811d9
+      internalID: 1199381741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_21
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 616
+        width: 18
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8802862e3a8b04bb99f10607d02411
+      internalID: 353678960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_22
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 614
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c458f297f6a8d25499500080eb61d308
+      internalID: -2017132792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 539
+        width: 55
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99ff75899de96c42b4f1fff79373baa
+      internalID: 650467258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_24
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 533
+        width: 55
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f11ae37422cff24f87db7a5b297f41c
+      internalID: -610167469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_25
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 535
+        width: 55
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8294d073d76ee940b18d668acaf974b
+      internalID: -552744829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_26
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 533
+        width: 55
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa2830508c00ab4d80bd5f43b65055d
+      internalID: -235478424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_27
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 536
+        width: 55
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c743958a6f8f84593275bd980c5048
+      internalID: 1819375959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_28
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 536
+        width: 55
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74fb56a78d36a844bd2d297b352db76
+      internalID: -641821634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_29
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 536
+        width: 55
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49005eb711f0f8c4b923f6c18cfc10aa
+      internalID: -2015503670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_30
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 536
+        width: 55
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79e282f2d3fd3e4287c432074597f47
+      internalID: -987909059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_31
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 538
+        width: 55
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fee46e6b5973bb469b3e2ced823a394
+      internalID: -1839962832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_32
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 578
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b270d75575d5f84babe76fbb5362fbb
+      internalID: 1680347912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_33
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 556
+        width: 33
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23479f1e0e7144e47aa24d0845bdf76a
+      internalID: 327242453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_34
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 556
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165487a4b74677f448f4750bc077f5d9
+      internalID: 267738078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_35
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 556
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbc24176863a20459d7ec3d19915a90
+      internalID: -1014999835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 556
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4d1199b78a88443ad543d3a3226bb4
+      internalID: 170022155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_37
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 556
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540d44e4174ee264f947a011215f75f0
+      internalID: -2000250383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_38
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 556
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b260881ceb7e5d4491ff67721939ce2
+      internalID: 1620849634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_39
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 453
+        width: 47
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a9e6c9e98af98429900a09cab6cfbe
+      internalID: -723976334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_40
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 451
+        width: 75
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f15067eb1736a40bcb686b7c6f15b8
+      internalID: 626575005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_41
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 451
+        width: 81
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7b391aed94aed429ee8fd3955416a3
+      internalID: -1621069364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_42
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 451
+        width: 55
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e2aaeba1fe9864ab5ea0093bcffcd7
+      internalID: -1427302361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_43
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 451
+        width: 55
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dada02f53dc8cee428b7780bf0462e95
+      internalID: 2008252447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_44
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 451
+        width: 55
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2c98129fee9b444ac1aae8446f1a06
+      internalID: -1354020187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_45
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 446
+        width: 44
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfcae56cac91544ebbff23f5dc7e3bc
+      internalID: -86169568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_46
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 466
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a276d48079dca1644b3a8f92d39d5e6e
+      internalID: -268919556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_47
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 447
+        width: 68
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f7151bfb4fe9c4485d2c265d6ded3b
+      internalID: 56341973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_48
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 444
+        width: 74
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063c832ddae569c42ab6a5ea07d2f534
+      internalID: 1686994111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_49
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 446
+        width: 44
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbd2e285cc5b11458a96cfcbeeb47c6
+      internalID: -1580535248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_50
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 360
+        width: 61
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53abedb33503c74fa074920e3d559f9
+      internalID: -1049495363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 354
+        width: 55
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ea48d7605298f44ace6a22a548d7e8
+      internalID: 1129203328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_52
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 364
+        width: 55
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a54ab9bc91b1042b51976601eee18b
+      internalID: -242487141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_53
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 365
+        width: 55
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a4e9877a7d01b48addb4931817d357
+      internalID: -77908355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_54
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 367
+        width: 56
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895e363b2e4da554590d3a158cd077db
+      internalID: -1479226349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_55
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 365
+        width: 56
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252a682aefa65ec44bb8ce4ea954acf4
+      internalID: -1576446934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_56
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 366
+        width: 60
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86122e9fc50e70442b49a83a92efddab
+      internalID: -1657210601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_57
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 363
+        width: 60
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a159e04881bf8445a6f97586442d0c4
+      internalID: -1017525849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_58
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 396
+        width: 9
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9167ce2d69211c46a316643190f7f15
+      internalID: 699804625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_59
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 364
+        width: 56
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9e06d32d00080499392726a15bc9c4
+      internalID: 2084799609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_60
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 366
+        width: 67
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2711652458ba964c8ea347ec9fa81b2
+      internalID: 743230855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_61
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 367
+        width: 67
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcc387dc7dc27c41a20329340ed9c57
+      internalID: -1718698091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_62
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 371
+        width: 55
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef86af4904dc62e4fad92e3d34d640a0
+      internalID: -1552075250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_63
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 367
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b5eadc009db3b42a4d23b99f906713
+      internalID: -1005606739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_64
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 367
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea74004ada2e9e43b0a6fb85d850179
+      internalID: -96213045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_65
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 280
+        width: 66
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97f4296779023e4bb5aef5408a31f2a
+      internalID: 884193042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_66
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 280
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ea24a196531084cbd3c07ef14f93a4
+      internalID: 936820171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_67
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 280
+        width: 60
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb614f83e0a85774fa9bec85f3fb409c
+      internalID: -827974588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_68
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 280
+        width: 55
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d9b015ec0b1124a9fb0747b92196b4
+      internalID: -603991982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_69
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 280
+        width: 55
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b0eda0dfeaf1c4da4535042f77fb87
+      internalID: -865958653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_70
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 280
+        width: 56
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c65f6d79a177c47a038a916319ba82
+      internalID: 1104414912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_71
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 280
+        width: 58
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25de07bfd93e2de488dc5fb14add927b
+      internalID: 987848515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_72
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 306
+        width: 9
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138eb6d2229ec6944a21d4c302dc4630
+      internalID: 1413001387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_73
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 280
+        width: 55
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625c1123887d28749bfe794a6546e729
+      internalID: 1338883965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_74
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 284
+        width: 41
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c76e2965858414d9ff77b9900f9ca5
+      internalID: -1805739815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_75
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 265
+        width: 66
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3c461bf4a124944b69858a1730b5bf
+      internalID: 681691865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_76
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 276
+        width: 25
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0a2a327a403f244b23c18855ab1013
+      internalID: 1884281592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_77
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 276
+        width: 25
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613924f2ecbe3a946a3e47046792e5c3
+      internalID: 1370709960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_78
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 291
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1041604255d8c1c4590491d33bd7c6b9
+      internalID: 1718868666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_79
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 276
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7290a92dea054db4db65ef794b35eb51
+      internalID: 1348536648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_80
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 295
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c04054a47c42f141818a3b68421d5fd
+      internalID: -1345253435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_81
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 270
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297fffd8d3170904ca8dd824918718eb
+      internalID: 1492412418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_82
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 281
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5bd02956e10484bbff700efef53933
+      internalID: 425690408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_83
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 275
+        width: 11
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ced4fbcadae3143aafeee24359944d
+      internalID: -1885637771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_84
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 272
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9ca38fe34b6984e80102df41a3af2b
+      internalID: -226989823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_85
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 274
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78215d272749ce044bbe72e22f842a8d
+      internalID: -1294556961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_86
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 266
+        width: 18
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7226d8cf33a2634bbe26ffaad6e3505
+      internalID: -1266922331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_87
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 264
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f55e024b61045e4baa14f6b49f7fa0c
+      internalID: 2002469222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_88
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 189
+        width: 55
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddf8bf3fdae94b46bd6d333ad8941ce
+      internalID: -1599885380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_89
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 183
+        width: 55
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb60a95645e1a274284b3d02b378d4d7
+      internalID: 714920306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_90
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 185
+        width: 55
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b629148b19b93154f8a1eeb59b2977c0
+      internalID: -770756372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_91
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 183
+        width: 55
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709a5cf2c00cfd445a482bf2737b1031
+      internalID: -1620237247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_92
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 186
+        width: 55
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e89fd8fa08f7845bb27c08fc850ad0
+      internalID: -600547474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_93
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 186
+        width: 55
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92345b35571bc53438350b91c878f640
+      internalID: 1251489419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_94
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 186
+        width: 55
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde463e266b9a02488115225f0080b8c
+      internalID: 324364749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_95
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 186
+        width: 55
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa21446feecb1b0479f2de3dcb4c0b35
+      internalID: -1742998029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_96
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 188
+        width: 55
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1479877812b4f41a7a98c4b5513093
+      internalID: -1057985762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_97
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 228
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c188f9b1998b913499222043211bc3a8
+      internalID: -1938147238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_98
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 206
+        width: 33
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d77f47db55e984cad4249c22dbef10
+      internalID: 1866318661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_99
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 206
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c222f45c194d96c4484a2b82b7e5d31c
+      internalID: -1460379246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_100
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 206
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79afb2e186fdaa242b5653e7c3908838
+      internalID: -1720501267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_101
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 206
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49173298d0a18245b0a8259bb1b70ef
+      internalID: -2038936173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_102
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 206
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2469238719f564e9b137aad1a7d398
+      internalID: 683623575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_103
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 206
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1437f2a092f17841b6475583df02feb
+      internalID: 31122119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_104
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 103
+        width: 47
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc424d0d8b7e7f498a3b27b3cb181ef
+      internalID: -420739819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_105
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 101
+        width: 75
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305e0eabf2e4c8547a9680287232a3c0
+      internalID: 268968356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_106
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 101
+        width: 81
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783434591b1ccf843aae3407e616bb58
+      internalID: 699786403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_107
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 101
+        width: 55
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a99859e74c27944b8bc3900814867a2
+      internalID: -1487228467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_108
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 101
+        width: 55
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574ea2a8384148249ac9e637ef3b442c
+      internalID: -419680263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_109
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 101
+        width: 55
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7376e4ecf4ffeb42a332c03564a3b52
+      internalID: 704928981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_110
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 96
+        width: 44
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effb8cd94d28fdb4fbae9479d67a55b1
+      internalID: 1838493788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_111
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 116
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d1cace151a76c4aab0c1882bf751f8
+      internalID: 1696154545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_112
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 97
+        width: 68
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc04fb5011a6cf545aa5636057a816c3
+      internalID: 1963463148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_113
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 94
+        width: 74
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7acaa69b07142b4d8f2824701a745ae
+      internalID: 641999524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_114
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 96
+        width: 44
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1ef8afcc0842d49b163d4d0910478f
+      internalID: 1333740326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_115
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 10
+        width: 61
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd29b0df57aaee745842ff6db1658fbf
+      internalID: -1865142373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_116
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 4
+        width: 55
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406354b92ee4c7e478764c3e0639566f
+      internalID: 1900363621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_117
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 14
+        width: 55
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d6691049172054787b5e5cebe47e46
+      internalID: 1696826770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_118
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 15
+        width: 55
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf388c17c71ce44cbfeb11a8e3a5147
+      internalID: -2113995181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_119
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 17
+        width: 56
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a7379c772e4204ab396abccd523635
+      internalID: 989433310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_120
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 15
+        width: 56
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccb31d6c7a4ebd408af62b07b1375ad
+      internalID: -2143372728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_121
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 16
+        width: 60
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1e0f713898e1c4e9be1eea50bcefc1
+      internalID: 1974966648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_122
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 13
+        width: 60
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0253582b5484e994caedfcc61df9211a
+      internalID: -688691592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_123
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 46
+        width: 9
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda7aa67fbe6f9049b21a08638a20dd7
+      internalID: 1659047791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_124
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 14
+        width: 56
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535de9bcd5262e048ad01c36d2470c17
+      internalID: -584640023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_125
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 16
+        width: 67
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2141a4d7ea1c022428628bd4969943f6
+      internalID: -956667113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_126
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 17
+        width: 67
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90ff27ef76ccd040b5e5be7e9d2601a
+      internalID: 1545162818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_127
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 21
+        width: 55
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c43afb320c46fe41bedc64368358456
+      internalID: 85791500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_128
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 17
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4145ae5364bfdc74784ed4801e4893a7
+      internalID: 928549976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmm-mmxarmour_129
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 17
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9932a56b732f5469c43495b46d4a33
+      internalID: -1184835505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemi_1
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 610
+        width: 6
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48c4c3600e008b4f9fe7e3a9e0ce02e
+      internalID: 814491652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemi_0: 1621345132
+      enemi_1: 814491652
+      mmm-mmxarmour_0: -576102762
+      mmm-mmxarmour_1: 1765333100
+      mmm-mmxarmour_10: 3508552
+      mmm-mmxarmour_100: -1720501267
+      mmm-mmxarmour_101: -2038936173
+      mmm-mmxarmour_102: 683623575
+      mmm-mmxarmour_103: 31122119
+      mmm-mmxarmour_104: -420739819
+      mmm-mmxarmour_105: 268968356
+      mmm-mmxarmour_106: 699786403
+      mmm-mmxarmour_107: -1487228467
+      mmm-mmxarmour_108: -419680263
+      mmm-mmxarmour_109: 704928981
+      mmm-mmxarmour_11: -1948156840
+      mmm-mmxarmour_110: 1838493788
+      mmm-mmxarmour_111: 1696154545
+      mmm-mmxarmour_112: 1963463148
+      mmm-mmxarmour_113: 641999524
+      mmm-mmxarmour_114: 1333740326
+      mmm-mmxarmour_115: -1865142373
+      mmm-mmxarmour_116: 1900363621
+      mmm-mmxarmour_117: 1696826770
+      mmm-mmxarmour_118: -2113995181
+      mmm-mmxarmour_119: 989433310
+      mmm-mmxarmour_12: -1835946585
+      mmm-mmxarmour_120: -2143372728
+      mmm-mmxarmour_121: 1974966648
+      mmm-mmxarmour_122: -688691592
+      mmm-mmxarmour_123: 1659047791
+      mmm-mmxarmour_124: -584640023
+      mmm-mmxarmour_125: -956667113
+      mmm-mmxarmour_126: 1545162818
+      mmm-mmxarmour_127: 85791500
+      mmm-mmxarmour_128: 928549976
+      mmm-mmxarmour_129: -1184835505
+      mmm-mmxarmour_13: 773910579
+      mmm-mmxarmour_14: 237478990
+      mmm-mmxarmour_15: -1488473073
+      mmm-mmxarmour_16: -957881578
+      mmm-mmxarmour_17: 795151282
+      mmm-mmxarmour_18: 2021851945
+      mmm-mmxarmour_19: -1692125989
+      mmm-mmxarmour_2: 844964219
+      mmm-mmxarmour_20: 1199381741
+      mmm-mmxarmour_21: 353678960
+      mmm-mmxarmour_22: -2017132792
+      mmm-mmxarmour_23: 650467258
+      mmm-mmxarmour_24: -610167469
+      mmm-mmxarmour_25: -552744829
+      mmm-mmxarmour_26: -235478424
+      mmm-mmxarmour_27: 1819375959
+      mmm-mmxarmour_28: -641821634
+      mmm-mmxarmour_29: -2015503670
+      mmm-mmxarmour_3: -402587405
+      mmm-mmxarmour_30: -987909059
+      mmm-mmxarmour_31: -1839962832
+      mmm-mmxarmour_32: 1680347912
+      mmm-mmxarmour_33: 327242453
+      mmm-mmxarmour_34: 267738078
+      mmm-mmxarmour_35: -1014999835
+      mmm-mmxarmour_36: 170022155
+      mmm-mmxarmour_37: -2000250383
+      mmm-mmxarmour_38: 1620849634
+      mmm-mmxarmour_39: -723976334
+      mmm-mmxarmour_4: -1683647538
+      mmm-mmxarmour_40: 626575005
+      mmm-mmxarmour_41: -1621069364
+      mmm-mmxarmour_42: -1427302361
+      mmm-mmxarmour_43: 2008252447
+      mmm-mmxarmour_44: -1354020187
+      mmm-mmxarmour_45: -86169568
+      mmm-mmxarmour_46: -268919556
+      mmm-mmxarmour_47: 56341973
+      mmm-mmxarmour_48: 1686994111
+      mmm-mmxarmour_49: -1580535248
+      mmm-mmxarmour_5: -1551851632
+      mmm-mmxarmour_50: -1049495363
+      mmm-mmxarmour_51: 1129203328
+      mmm-mmxarmour_52: -242487141
+      mmm-mmxarmour_53: -77908355
+      mmm-mmxarmour_54: -1479226349
+      mmm-mmxarmour_55: -1576446934
+      mmm-mmxarmour_56: -1657210601
+      mmm-mmxarmour_57: -1017525849
+      mmm-mmxarmour_58: 699804625
+      mmm-mmxarmour_59: 2084799609
+      mmm-mmxarmour_6: 1227587346
+      mmm-mmxarmour_60: 743230855
+      mmm-mmxarmour_61: -1718698091
+      mmm-mmxarmour_62: -1552075250
+      mmm-mmxarmour_63: -1005606739
+      mmm-mmxarmour_64: -96213045
+      mmm-mmxarmour_65: 884193042
+      mmm-mmxarmour_66: 936820171
+      mmm-mmxarmour_67: -827974588
+      mmm-mmxarmour_68: -603991982
+      mmm-mmxarmour_69: -865958653
+      mmm-mmxarmour_7: -1296591352
+      mmm-mmxarmour_70: 1104414912
+      mmm-mmxarmour_71: 987848515
+      mmm-mmxarmour_72: 1413001387
+      mmm-mmxarmour_73: 1338883965
+      mmm-mmxarmour_74: -1805739815
+      mmm-mmxarmour_75: 681691865
+      mmm-mmxarmour_76: 1884281592
+      mmm-mmxarmour_77: 1370709960
+      mmm-mmxarmour_78: 1718868666
+      mmm-mmxarmour_79: 1348536648
+      mmm-mmxarmour_8: -1308692814
+      mmm-mmxarmour_80: -1345253435
+      mmm-mmxarmour_81: 1492412418
+      mmm-mmxarmour_82: 425690408
+      mmm-mmxarmour_83: -1885637771
+      mmm-mmxarmour_84: -226989823
+      mmm-mmxarmour_85: -1294556961
+      mmm-mmxarmour_86: -1266922331
+      mmm-mmxarmour_87: 2002469222
+      mmm-mmxarmour_88: -1599885380
+      mmm-mmxarmour_89: 714920306
+      mmm-mmxarmour_9: 310795793
+      mmm-mmxarmour_90: -770756372
+      mmm-mmxarmour_91: -1620237247
+      mmm-mmxarmour_92: -600547474
+      mmm-mmxarmour_93: 1251489419
+      mmm-mmxarmour_94: 324364749
+      mmm-mmxarmour_95: -1742998029
+      mmm-mmxarmour_96: -1057985762
+      mmm-mmxarmour_97: -1938147238
+      mmm-mmxarmour_98: 1866318661
+      mmm-mmxarmour_99: -1460379246
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
