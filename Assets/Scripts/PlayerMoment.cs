@@ -7,8 +7,9 @@ public class PlayerMoment : MonoBehaviour
     private float horizontal;
     private bool isJumping = true;
     private bool facingRight = true;
-    private bool falling = true;
+    private bool runAndShoot = false;
     private bool isShooting = false;
+    private bool isRuning = false;
 
     [SerializeField] private Animator animator;
     [SerializeField] private Rigidbody2D rb;
@@ -37,12 +38,6 @@ public class PlayerMoment : MonoBehaviour
             Flip();
         }
     }
-
-    /*  private bool isGrounded()
-      {
-          *//*return Physics2D.OverlapCircle(groundCheck.position, 0.2f,  );*//*
-      }*/
-    // Update is called once per frame
     public void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
@@ -52,7 +47,7 @@ public class PlayerMoment : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
             isJumping = true;
         }
-        if (Input.GetKey(KeyCode.V))
+        if (Input.GetKeyDown(KeyCode.V))
         {
             isShooting = true;
         }
@@ -61,8 +56,24 @@ public class PlayerMoment : MonoBehaviour
             isShooting = false;
         }
 
+        if(isRuning && isShooting)
+        {
+            runAndShoot = true;
+        }
+        else
+        {
+            runAndShoot=false;
+        }
+
 
         //Animations
+        if(runAndShoot & !isJumping) {
+            animator.SetBool("Run-Shoot", true);
+        }
+        else
+        {
+            animator.SetBool("Run-Shoot", false);
+        }
         if (isShooting)
         {
             animator.SetBool("Shoot", true);
@@ -83,10 +94,12 @@ public class PlayerMoment : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow))
         {
             animator.SetBool("Run", true);
+            isRuning = true;
         }
         else
         {
             animator.SetBool("Run", false);
+            isRuning=false;
         }
 
         /* if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A) && !isJumping)
