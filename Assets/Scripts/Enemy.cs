@@ -67,7 +67,7 @@ public class Enemy : MonoBehaviour
     
     private IEnumerator ActiveAfterDelay()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.9f);
         SetChildObjectActive(true);
     }
 
