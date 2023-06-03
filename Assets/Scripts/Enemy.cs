@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public float speed = 5f;
     public float time;
     public float attackTime = 1f;
+    public float attackRange = 5f;
 
     private Rigidbody2D m_Rigidbody2D;
     private Animator m_Animator;
@@ -16,6 +17,7 @@ public class Enemy : MonoBehaviour
     private float m_AttackTime;
     
     private GameObject punchCollider;
+    private GameObject player;
 
 
 
@@ -26,12 +28,24 @@ public class Enemy : MonoBehaviour
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
         m_Animator = GetComponent<Animator>();
         StartCoroutine(MoveAfterDelay());
+        
         punchCollider = transform.Find("Punch")?.gameObject;
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
+        //attack when player is in range
+        if (player != null)
+        {
+            if (Vector2.Distance(transform.position, player.transform.position) < attackRange)
+            {
+                isMove = false;
+                isAttack = true;
+            }
+        }
+        
         if (isMove)
         {
             Move();
@@ -41,7 +55,7 @@ public class Enemy : MonoBehaviour
         {
             Attack();
             m_AttackTime += Time.deltaTime;
-            if (m_AttackTime > 0.9)
+            if (m_AttackTime > 0.25)
             {
                 SetChildObjectActive(true);
             }
@@ -56,16 +70,14 @@ public class Enemy : MonoBehaviour
 
     private void Move()
     {
-        m_Animator.SetBool("move", true);
-        m_Animator.SetBool("attack", false);
+        m_Animator.Play("Enemy1_move");
         transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
         SetChildObjectActive(false);
     }
 
     private void Attack()
     {
-        m_Animator.SetBool("move", false);
-        m_Animator.SetBool("attack", true);
+        m_Animator.Play("Enemy1_attack");
     }
     
     private IEnumerator MoveAfterDelay()
@@ -74,20 +86,6 @@ public class Enemy : MonoBehaviour
         isMove = true;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Punch"))
-            Debug.Log("Punch");
-        if (other.gameObject.CompareTag("AttackRange"))
-            Debug.Log("AttackRange");
-    
-        if (other.gameObject.CompareTag("Player"))
-        {
-            isMove = false;
-            isAttack = true;
-        }
-    }
-    
     private void SetChildObjectActive(bool isActive)
     {
         if (punchCollider != null)
