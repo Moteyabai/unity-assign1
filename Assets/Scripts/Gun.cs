@@ -14,8 +14,13 @@ public class Gun : MonoBehaviour
     private bool isCharging= false;
     [SerializeField] private float chargeTime;
     private PlayerMoment playerMoment;
+
     [SerializeField] private float chargeSpeed;
     [SerializeField] private GameObject chargedBulletPrefab;
+    [SerializeField] private AudioSource normalShotSfx;
+    [SerializeField] private AudioSource chargedShotSfx;
+    [SerializeField] private AudioSource chargingSfx;
+
 
     private void Start()
     {
@@ -25,28 +30,27 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.V) && chargeTime < 3)
+        {
+            isCharging = true;
+            if(isCharging == true)
+            {
+                chargeTime += Time.deltaTime * chargeSpeed;
+                chargingSfx.Play();
+            }
+            
+        }
         if (Input.GetKeyDown(KeyCode.V))
         {
             var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
             bullet.GetComponent<Rigidbody2D>().velocity = bulletSpawnPoint.right * bulletSpeed;
+            normalShotSfx.Play();
             chargeTime = 0;
         }
 
-        if (Input.GetKey(KeyCode.V) && chargeTime < 2)
+        if (Input.GetKeyUp(KeyCode.V) && chargeTime >=3)
         {
-            isCharging = true;
-            if(isCharging)
-            {
-                chargeTime += Time.deltaTime * chargeSpeed;
-            }
-        }
-
-        else if (Input.GetKeyUp(KeyCode.V) && chargeTime >=2)
-        {
-            ReleaseCharge();
-            playerMoment.ChargedShot();
-            isCharging = false;
-            chargeTime = 0;
+            ReleaseCharge();          
         }
     }
 
@@ -56,5 +60,10 @@ public class Gun : MonoBehaviour
     {
         var chargedBullet = Instantiate(chargedBulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
         chargedBullet.GetComponent<Rigidbody2D>().velocity = bulletSpawnPoint.right * bulletSpeed;
+        playerMoment.ChargedShot();
+        chargedShotSfx.Play();
+        chargingSfx.Stop();
+        isCharging = false;
+        chargeTime = 0f;
     }
 }

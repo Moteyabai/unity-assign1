@@ -11,12 +11,19 @@ public class PlayerMoment : MonoBehaviour
     private bool isFalling = false;
  
 
-    [SerializeField] private Animator animator;
-    [SerializeField] private Rigidbody2D rb;
+    private Animator animator;
+    private Rigidbody2D rb;
+
+    [SerializeField] private AudioSource backgroundBGM;
+    [SerializeField] private AudioSource dieSfx;
+    [SerializeField] private AudioSource jumpSfx;
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        backgroundBGM.Play();
     }
     // Fixed update is called once per physics change
     void FixedUpdate()
