@@ -36,9 +36,19 @@ public class Gun : MonoBehaviour
             if(isCharging == true)
             {
                 chargeTime += Time.deltaTime * chargeSpeed;
-                chargingSfx.Play();
             }
             
+        }
+
+        if (isCharging && chargeTime > 1) {
+            if (chargingSfx.isPlaying)
+            {
+
+            }
+            else
+            {
+                chargingSfx.Play();
+            }
         }
         if (Input.GetKeyDown(KeyCode.V))
         {
@@ -48,7 +58,7 @@ public class Gun : MonoBehaviour
             chargeTime = 0;
         }
 
-        if (Input.GetKeyUp(KeyCode.V) && chargeTime >=3)
+        else if (Input.GetKeyUp(KeyCode.V) && chargeTime >=3)
         {
             ReleaseCharge();          
         }
