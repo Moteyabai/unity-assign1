@@ -36,9 +36,9 @@ public class Gun : MonoBehaviour
             if(isCharging == true)
             {
                 chargeTime += Time.deltaTime * chargeSpeed;
-            }
-            
+            }           
         }
+
 
         if (isCharging && chargeTime > 1) {
             if (chargingSfx.isPlaying)
