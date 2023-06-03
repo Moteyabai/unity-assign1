@@ -20,6 +20,8 @@ public class Punch : MonoBehaviour
         if ((other.gameObject.tag == "Player") )
         {
             Destroy(other.gameObject);
+            Time.timeScale = 0f;
+            Debug.Log("Game Over");
         }
     }
 }

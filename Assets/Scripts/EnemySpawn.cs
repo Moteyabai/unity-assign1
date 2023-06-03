@@ -8,8 +8,9 @@ public class EnemySpawn : MonoBehaviour
 {
     public GameObject enemyPrefab;
     public float spawnInterval = 2f;
+    private bool isFacingRight = true;
     private float m_SpawnTime = 2f;
-
+    
 
     private void Update()
     {
@@ -26,9 +27,6 @@ public class EnemySpawn : MonoBehaviour
     {
         Vector3 spawnPosition = CalculateSpawnPosition();
         GameObject enemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
-        var scale = enemy.transform.localScale;
-        // scale.x = -1;
-        // enemy.transform.localScale = scale;
     }
     
     
@@ -38,10 +36,9 @@ public class EnemySpawn : MonoBehaviour
         float width = Screen.width;
         float x;
         int ranNumber = Random.Range(-1, 1);
-        x = ranNumber < 0 ? 0 : width;
-        Vector3 position = new Vector3(width - 100, 100, Camera.main.nearClipPlane);
+        x = ranNumber < 0 ? 100 : width - 100;
+        Vector3 position = new Vector3(x, 100, Camera.main.nearClipPlane);
         return Camera.main!.ScreenToWorldPoint(position);
     }
-
    
 }

@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     public float time;
     public float attackTime = 1f;
     public float attackRange = 5f;
+    public bool isFacingRight = false;
 
     private Rigidbody2D m_Rigidbody2D;
     private Animator m_Animator;
@@ -21,13 +22,18 @@ public class Enemy : MonoBehaviour
     private GameObject player;
 
 
-
     // Start is called before the first frame update
     void Start()
     {
         m_AttackTime = 0f;
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
         m_Animator = GetComponent<Animator>();
+
+        if (transform.position.x < 0)
+        {
+            Flip();
+        }
+        
         StartCoroutine(MoveAfterDelay());
         
         punchCollider = transform.Find("Punch")?.gameObject;
@@ -72,7 +78,7 @@ public class Enemy : MonoBehaviour
     private void Move()
     {
         m_Animator.Play("Enemy1_move");
-        transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
+        transform.position += new Vector3((isFacingRight ? -1 : 1) * -speed * Time.deltaTime, 0, 0);
         SetChildObjectActive(false);
     }
 
@@ -97,7 +103,22 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.tag == "wall")
         {
-            Destroy(this.gameObject);
+            Flip();
         }
     }
+    
+    public void Flip()
+    {
+        isFacingRight = !isFacingRight;
+
+        // Get the current scale
+        Vector3 scale = transform.localScale;
+
+        // Flip the scale on the X-axis
+        scale.x *= -1;
+
+        // Apply the new scale
+        transform.localScale = scale;
+    }
+
 }

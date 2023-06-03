@@ -244,3 +244,4 @@ MonoBehaviour:
   time: 0
   attackTime: 0.9
   attackRange: 2.7
+  isFacingRight: 0
