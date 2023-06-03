@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - AttackRange
   - Punch
+  - wall
   layers:
   - Default
   - TransparentFX

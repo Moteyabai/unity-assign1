@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -90,5 +91,13 @@ public class Enemy : MonoBehaviour
     {
         if (punchCollider != null)
             punchCollider.SetActive(isActive);
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "wall")
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

@@ -39,7 +39,7 @@ public class EnemySpawn : MonoBehaviour
         float x;
         int ranNumber = Random.Range(-1, 1);
         x = ranNumber < 0 ? 0 : width;
-        Vector3 position = new Vector3(width, 100, Camera.main.nearClipPlane);
+        Vector3 position = new Vector3(width - 100, 100, Camera.main.nearClipPlane);
         return Camera.main!.ScreenToWorldPoint(position);
     }
 
