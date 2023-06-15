@@ -14,6 +14,7 @@ public class ScreenTransition : MonoBehaviour
     public void OnStart()
     {
         SceneManager.LoadScene(1);
+        Time.timeScale = 1.0f;
     }
 
 

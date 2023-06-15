@@ -27,6 +27,8 @@ public class EnemySpawn : MonoBehaviour
     {
         Vector3 spawnPosition = CalculateSpawnPosition();
         GameObject enemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+
+        Destroy(enemy, 10);
     }
     
     

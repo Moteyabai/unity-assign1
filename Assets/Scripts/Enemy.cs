@@ -62,13 +62,15 @@ public class Enemy : MonoBehaviour
         {
             Attack();
             m_AttackTime += Time.deltaTime;
-            if (m_AttackTime > 0.25)
+            if (m_AttackTime > 0.35)
             {
                 SetChildObjectActive(true);
             }
+            if (m_AttackTime > 0.6)
+                SetChildObjectActive(false);
             if (m_AttackTime > attackTime)
             {
-                m_AttackTime = 0;
+                m_AttackTime = 0;           
                 isAttack = false;
                 isMove = true;
             }
@@ -101,7 +103,7 @@ public class Enemy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "wall")
+        if (other.gameObject.tag == "wall" || other.gameObject.tag == "Enemy")
         {
             Flip();
         }
