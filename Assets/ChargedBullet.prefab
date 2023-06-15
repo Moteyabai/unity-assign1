@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5890862422058035651}
   - component: {fileID: 5890862422058035652}
   - component: {fileID: 5890862422058035649}
-  - component: {fileID: -8677588099644404260}
+  - component: {fileID: 1552496238621838347}
   m_Layer: 0
   m_Name: ChargedBullet
   m_TagString: Bullet
@@ -124,7 +124,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &-8677588099644404260
+--- !u!114 &1552496238621838347
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,6 +133,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5890862422058035653}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 387e6b8083f16a34a881bf05a2f83ac5, type: 3}
+  m_Script: {fileID: 11500000, guid: 8fc8e843f24cb2f41842128477518378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -17,6 +17,11 @@ public class PlayerMoment : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+<<<<<<< Updated upstream
+=======
+        backgroundBGM.Play();
+        animator.SetBool("Died", false);
+>>>>>>> Stashed changes
     }
     // Fixed update is called once per physics change
     void FixedUpdate()
@@ -86,6 +91,11 @@ public class PlayerMoment : MonoBehaviour
     {
         facingRight = !facingRight;
         transform.Rotate(0, 180, 0);
+    }
+
+    public void Died()
+    {
+        animator.SetBool("Died", true );
     }
 
     public void ChargedShot()
