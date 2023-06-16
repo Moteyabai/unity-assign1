@@ -25,7 +25,6 @@ public class Punch : MonoBehaviour
         if ((other.gameObject.tag == "Player") )
         {
             playerMoment.TakeDmg(20);
-            
         }
     }
 

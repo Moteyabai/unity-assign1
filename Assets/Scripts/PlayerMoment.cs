@@ -9,24 +9,31 @@ public class PlayerMoment : MonoBehaviour
     private bool facingRight = true;
     private bool isShooting = false;
     private bool isFalling = false;
+    private bool isTakingDmg = false;
+    public bool isDied = false;
     private int maxHealth = 100;
     private int currentHealth;
+    private float dmgTime=0f;
+    private float dieTime = 0f;
 
     
     private Animator animator;
     private Rigidbody2D rb;
+    private SpriteRenderer spriteRenderer;
 
     [SerializeField] private GameOver gameManager;
     [SerializeField] private HealthBar healthBar;
     [SerializeField] private AudioSource backgroundBGM;
     [SerializeField] private AudioSource dieSfx;
     [SerializeField] private AudioSource jumpSfx;
+    [SerializeField] private AudioSource hurtSfx;
 
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         backgroundBGM.Play();
         animator.SetBool("Died", false);
         currentHealth = maxHealth;
@@ -48,10 +55,12 @@ public class PlayerMoment : MonoBehaviour
             isFalling= false;
         }
 
-        if(currentHealth == 0)
+        if (currentHealth == 0)
         {
-            Died();
+            isDied = true;
         }
+
+
 
         // If the input is moving the player right and the player is facing left...
         if (horizontal > 0 && !facingRight)
@@ -68,20 +77,53 @@ public class PlayerMoment : MonoBehaviour
     }
     public void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
+        if(!isDied && !isTakingDmg)
+        {
+            horizontal = Input.GetAxisRaw("Horizontal");
+        }
+        
 
-        if (Input.GetKey(KeyCode.C) && !isJumping)
+        if (Input.GetKey(KeyCode.C) && !isJumping && !isDied)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
             isJumping = true;
+            jumpSfx.Play();
         }
-        if (Input.GetKeyDown(KeyCode.V))
+        if (Input.GetKeyDown(KeyCode.V) && !isDied)
         {
             isShooting = true;
         }
         else
         {
             isShooting = false;
+        }
+
+        if (isDied)
+        {
+            dieTime += Time.deltaTime;
+            if (dieSfx.isPlaying)
+            {
+
+            }
+            else
+            {
+                dieSfx.Play();
+                Died();
+                if (dieTime > 0.3)
+                {
+                    Destroy(gameObject.GetComponent<CapsuleCollider2D>());
+                    Destroy(spriteRenderer);
+                }
+
+            }
+
+        }
+
+        if (isDied && dieTime > 3)
+        {
+            Time.timeScale = 0;
+            dieSfx.Stop();
+            gameManager.gameOver();
         }
 
         //Animations
@@ -91,7 +133,21 @@ public class PlayerMoment : MonoBehaviour
 
         animator.SetBool("Jump", isJumping);
 
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow))
+        
+        if (isTakingDmg && currentHealth > 0)
+        {
+            dmgTime += Time.deltaTime;
+            animator.SetBool("Take Dmg", true);
+        }
+
+        if(isTakingDmg && dmgTime > 1)
+        {
+            isTakingDmg = false;
+            dmgTime = 0;
+            animator.SetBool("Take Dmg", false);
+        }
+
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow) && !isDied)
         {
             animator.SetBool("Run", true);
         }
@@ -103,8 +159,14 @@ public class PlayerMoment : MonoBehaviour
 
     public void TakeDmg(int damage)
     {
-        currentHealth -= damage;
-        healthBar.SetHeal(currentHealth);
+        if(!isDied)
+        {
+            isTakingDmg = true;
+            currentHealth -= damage;
+            hurtSfx.Play();
+            rb.velocity = new Vector2(0, 20);
+            healthBar.SetHeal(currentHealth);
+        }
     }
 
     private void Flip()
@@ -115,8 +177,6 @@ public class PlayerMoment : MonoBehaviour
 
     public void Died()
     {
-        Time.timeScale = 0f;
-        gameManager.gameOver();
         animator.SetBool("Died", true );
     }
 

@@ -8,11 +8,13 @@ public class GameOver : MonoBehaviour
 
     [SerializeField] private GameObject gameOverUI;
     [SerializeField] private GameObject hideHealthBar;
+    private PlayerMoment playerMoment;
     // Start is called before the first frame update
     void Start()
     {
         gameOverUI.SetActive(false);
         hideHealthBar.SetActive(true);
+        playerMoment = FindObjectOfType<PlayerMoment>();
     }
 
     // Update is called once per frame
@@ -27,14 +29,20 @@ public class GameOver : MonoBehaviour
         hideHealthBar?.SetActive(false);
     }
 
-    public void restart()
+    public void Restart()
     {
         SceneManager.LoadScene("Game");
+        playerMoment.isDied = false;
         Time.timeScale = 1.0f;
     }
 
-    public void mainMenu()
+    public void MainMenu()
     {
         SceneManager.LoadScene("Menu");
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }

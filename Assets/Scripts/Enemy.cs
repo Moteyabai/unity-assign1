@@ -22,6 +22,7 @@ public class Enemy : MonoBehaviour
     private GameObject player;
 
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -75,6 +76,9 @@ public class Enemy : MonoBehaviour
                 isMove = true;
             }
         }
+        //Attacked by player
+
+
     }
 
     private void Move()
@@ -103,7 +107,7 @@ public class Enemy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "wall" || other.gameObject.tag == "Enemy")
+        if (other.gameObject.tag == "wall" || other.gameObject.tag == "Enemy" || other.gameObject.tag == "Elite")
         {
             Flip();
         }
