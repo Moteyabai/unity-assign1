@@ -30,13 +30,18 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.V) && chargeTime < 3)
+        if (Input.GetKey(KeyCode.V) && chargeTime < 6)
         {
             isCharging = true;
             if(isCharging == true)
             {
                 chargeTime += Time.deltaTime * chargeSpeed;
-            }           
+            }
+        }
+        else
+        {
+            chargingSfx.Stop();
+            isCharging = false;
         }
 
 
@@ -58,7 +63,7 @@ public class Gun : MonoBehaviour
             chargeTime = 0;
         }
 
-        else if (Input.GetKeyUp(KeyCode.V) && chargeTime >=3)
+        else if (Input.GetKeyUp(KeyCode.V) && chargeTime >=4)
         {
             ReleaseCharge();          
         }

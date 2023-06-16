@@ -242,6 +242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   time: 0
-  attackTime: 0.9
+  attackTime: 2
   attackRange: 2.7
   isFacingRight: 0
+  healthBar: {fileID: 0}

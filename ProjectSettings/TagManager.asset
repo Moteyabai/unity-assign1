@@ -11,6 +11,7 @@ TagManager:
   - AttackRange
   - Punch
   - wall
+  - Elite
   layers:
   - Default
   - TransparentFX
