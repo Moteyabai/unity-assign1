@@ -24,9 +24,7 @@ public class Punch : MonoBehaviour
     {
         if ((other.gameObject.tag == "Player") )
         {
-            playerMoment.Died();
-            Time.timeScale = 0f;
-            gameManager.gameOver();
+            playerMoment.TakeDmg(20);
             
         }
     }

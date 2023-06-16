@@ -7,10 +7,12 @@ public class GameOver : MonoBehaviour
 {
 
     [SerializeField] private GameObject gameOverUI;
+    [SerializeField] private GameObject hideHealthBar;
     // Start is called before the first frame update
     void Start()
     {
         gameOverUI.SetActive(false);
+        hideHealthBar.SetActive(true);
     }
 
     // Update is called once per frame
@@ -22,6 +24,7 @@ public class GameOver : MonoBehaviour
     public void gameOver()
     {
         gameOverUI.SetActive(true);
+        hideHealthBar?.SetActive(false);
     }
 
     public void restart()

@@ -9,11 +9,15 @@ public class PlayerMoment : MonoBehaviour
     private bool facingRight = true;
     private bool isShooting = false;
     private bool isFalling = false;
- 
+    private int maxHealth = 100;
+    private int currentHealth;
 
+    
     private Animator animator;
     private Rigidbody2D rb;
 
+    [SerializeField] private GameOver gameManager;
+    [SerializeField] private HealthBar healthBar;
     [SerializeField] private AudioSource backgroundBGM;
     [SerializeField] private AudioSource dieSfx;
     [SerializeField] private AudioSource jumpSfx;
@@ -25,6 +29,8 @@ public class PlayerMoment : MonoBehaviour
         animator = GetComponent<Animator>();
         backgroundBGM.Play();
         animator.SetBool("Died", false);
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
     // Fixed update is called once per physics change
     void FixedUpdate()
@@ -40,6 +46,11 @@ public class PlayerMoment : MonoBehaviour
         else
         {
             isFalling= false;
+        }
+
+        if(currentHealth == 0)
+        {
+            Died();
         }
 
         // If the input is moving the player right and the player is facing left...
@@ -90,6 +101,12 @@ public class PlayerMoment : MonoBehaviour
         }
     }
 
+    public void TakeDmg(int damage)
+    {
+        currentHealth -= damage;
+        healthBar.SetHeal(currentHealth);
+    }
+
     private void Flip()
     {
         facingRight = !facingRight;
@@ -98,6 +115,8 @@ public class PlayerMoment : MonoBehaviour
 
     public void Died()
     {
+        Time.timeScale = 0f;
+        gameManager.gameOver();
         animator.SetBool("Died", true );
     }
 
