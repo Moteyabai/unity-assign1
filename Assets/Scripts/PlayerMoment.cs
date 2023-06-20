@@ -11,15 +11,18 @@ public class PlayerMoment : MonoBehaviour
     private bool isFalling = false;
     private bool isTakingDmg = false;
     public bool isDied = false;
+    public bool isWon = false;
     private int maxHealth = 100;
     private int currentHealth;
     private float dmgTime=0f;
     private float dieTime = 0f;
+    private float winTime = 0f;
 
     
     private Animator animator;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
+    Score score;
 
     [SerializeField] private GameOver gameManager;
     [SerializeField] private HealthBar healthBar;
@@ -27,6 +30,7 @@ public class PlayerMoment : MonoBehaviour
     [SerializeField] private AudioSource dieSfx;
     [SerializeField] private AudioSource jumpSfx;
     [SerializeField] private AudioSource hurtSfx;
+    [SerializeField] private AudioSource winSfx;
 
 
     private void Start()
@@ -38,6 +42,7 @@ public class PlayerMoment : MonoBehaviour
         animator.SetBool("Died", false);
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        score = FindAnyObjectByType<Score>();
     }
     // Fixed update is called once per physics change
     void FixedUpdate()
@@ -58,6 +63,10 @@ public class PlayerMoment : MonoBehaviour
         if (currentHealth == 0)
         {
             isDied = true;
+        }
+        if(score.ScoreNum >= 15)
+        {
+            isWon = true;
         }
 
 
@@ -117,6 +126,13 @@ public class PlayerMoment : MonoBehaviour
 
             }
 
+        }
+        if (isWon)
+        {
+            winTime += Time.deltaTime;
+            Time.timeScale = 0;
+            winSfx.Play();
+            gameManager.Win();
         }
 
         if (isDied && dieTime > 3)

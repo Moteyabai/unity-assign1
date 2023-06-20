@@ -25,7 +25,6 @@ public class EnemySpawn : MonoBehaviour
     private void Update()
     {
         m_NormalSpawnTime -= Time.deltaTime;
-        Debug.Log(score.Bonus);
         if (m_NormalSpawnTime <= 0 )
         {
             SpawnEnemy();
